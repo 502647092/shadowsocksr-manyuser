@@ -1,6 +1,5 @@
 language: python
 python:
-  - 2.6
   - 2.7
   - 3.3
   - 3.4
@@ -15,11 +14,12 @@ before_install:
   - sudo dd if=/dev/urandom of=/usr/share/nginx/html/file bs=1M count=10
   - sudo sh -c "echo '127.0.0.1    localhost' > /etc/hosts"
   - sudo service nginx restart
-  - pip install pep8 pyflakes nose coverage PySocks cymysql
+  - pip install --upgrade pip
+  - pip install coverage pep8 pyflakes nose PySocks cymysql
   - sudo rm -rf ~/build/maxsky/shadowsocksr-manyuser/dante*
   - sudo rm -rf ~/build/maxsky/shadowsocksr-manyuser/libsodium*
   - sudo tests/socksify/install.sh
   - sudo tests/libsodium/install.sh
   - sudo tests/setup_tc.sh
 script:
-  - sudo tests/jenkins.sh
+  - tests/jenkins.sh
