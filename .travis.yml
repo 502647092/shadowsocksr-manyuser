@@ -7,6 +7,8 @@ python:
 cache:
   directories:
     - dante-1.4.2
+    - libsodium-1.0.16
+sudo: enabled
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq build-essential dnsutils iproute nginx bc
@@ -18,4 +20,4 @@ before_install:
   - sudo tests/libsodium/install.sh
   - sudo tests/setup_tc.sh
 script:
-  - tests/jenkins.sh
+  - sudo tests/jenkins.sh

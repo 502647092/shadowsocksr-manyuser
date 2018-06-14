@@ -67,7 +67,7 @@ for more information.
 Documentation
 -------------
 
-You can find all the documentation in the ![Wiki](https://github.com/maxsky/shadowsocks-rss/wiki).
+You can find all the documentation in the [Wiki](https://github.com/maxsky/shadowsocks-rss/wiki).
 
 License
 -------
