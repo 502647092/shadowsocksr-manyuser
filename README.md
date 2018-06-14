@@ -1,7 +1,7 @@
 ShadowsocksR
 ===========
 
-[![Build Status]][Travis CI]
+[![Build Status](https://travis-ci.org/maxsky/shadowsocksr-manyuser.svg?branch=manyuser)](https://travis-ci.org/maxsky/shadowsocksr-manyuser)
 
 A fast tunnel proxy that helps you bypass firewalls.
 
@@ -67,7 +67,7 @@ for more information.
 Documentation
 -------------
 
-You can find all the documentation in the [Wiki].
+You can find all the documentation in the ![Wiki](https://github.com/maxsky/shadowsocks-rss/wiki).
 
 License
 -------
@@ -93,13 +93,13 @@ Bugs and Issues
 
 
 
-[Android]:           https://github.com/shadowsocksr/shadowsocksr-android
-[Build Status]:      https://travis-ci.org/shadowsocksr/shadowsocksr.svg?branch=manyuser
+[Android]:           https://github.com/shadowsocksrr/shadowsocksr-android
+[Build Status]:      https://api.travis-ci.org/maxsky/shadowsocksr.svg?branch=manyuser
 [Debian sid]:        https://packages.debian.org/unstable/python/shadowsocks
 [iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
-[Issue Tracker]:     https://github.com/shadowsocksr/shadowsocksr/issues?state=open
+[Issue Tracker]:     https://github.com/maxsky/shadowsocksr-manyuser/issues?state=open
 [OpenWRT]:           https://github.com/shadowsocks/openwrt-shadowsocks
-[macOS]:             https://github.com/shadowsocksr/ShadowsocksX-NG
-[Travis CI]:         https://travis-ci.org/shadowsocksr/shadowsocksr
-[Windows]:           https://github.com/shadowsocksr/shadowsocksr-csharp
-[Wiki]:              https://github.com/breakwa11/shadowsocks-rss/wiki
+[macOS]:             https://github.com/qinyuhang/ShadowsocksX-NG-R/releases
+[Travis CI]:         https://travis-ci.org/maxsky/shadowsocksr-manyuser
+[Windows]:           https://github.com/maxsky/shadowsocksr-csharp/releases
+[Wiki]:              https://github.com/maxsky/shadowsocks-rss/wiki
