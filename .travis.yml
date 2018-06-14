@@ -16,6 +16,8 @@ before_install:
   - sudo sh -c "echo '127.0.0.1    localhost' > /etc/hosts"
   - sudo service nginx restart
   - pip install pep8 pyflakes nose coverage PySocks cymysql
+  - sudo rm -rf ~/build/maxsky/shadowsocksr-manyuser/dante*
+  - sudo rm -rf ~/build/maxsky/shadowsocksr-manyuser/libsodium*
   - sudo tests/socksify/install.sh
   - sudo tests/libsodium/install.sh
   - sudo tests/setup_tc.sh
